@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Pulse de Eventos",
+    "slug": "pulse-eventos",
+    "description": "Descubra, crie e participe dos melhores eventos do Brasil!",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "themeColor": "#4361EE"
+    },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

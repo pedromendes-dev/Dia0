@@ -1,0 +1,13 @@
+{
+  "welcome": "Welcome to Pulse de Eventos!",
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Register",
+  "event": "Event",
+  "events": "Events",
+  "tickets": "Tickets",
+  "profile": "Profile",
+  "search": "Search",
+  "create": "Create",
+  "settings": "Settings"
+}

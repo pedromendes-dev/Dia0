@@ -1,0 +1,127 @@
+// Define color palette
+export const colors = {
+  primary: {
+    50: '#EBF5FF',
+    100: '#D6EAFF',
+    200: '#ADC8FF',
+    300: '#85A5FF',
+    400: '#6682FF',
+    500: '#4361EE',
+    600: '#3A56D4',
+    700: '#2F4BAA',
+    800: '#233F80',
+    900: '#182A55',
+  },
+  secondary: {
+    50: '#EDFCF4',
+    100: '#D3F8E6',
+    200: '#A7F1CC',
+    300: '#7BE9B3',
+    400: '#4FE29A',
+    500: '#22C55E',
+    600: '#1B9D4B',
+    700: '#157538',
+    800: '#0E4D25',
+    900: '#072613',
+  },
+  tertiary: {
+    50: '#FFF3EA',
+    100: '#FFEAD3',
+    200: '#FFD5A8',
+    300: '#FFC07D',
+    400: '#FFAB52',
+    500: '#FF9526',
+    600: '#CC7A1F',
+    700: '#995C17',
+    800: '#663D10',
+    900: '#331F08',
+  },
+  success: {
+    50: '#EEFCF3',
+    100: '#D3F8DF',
+    200: '#A7F0BF',
+    300: '#7BE99F',
+    400: '#4FE17F',
+    500: '#22C55E',
+    600: '#1B9D4B',
+    700: '#157538',
+    800: '#0E4D25',
+    900: '#072613',
+  },
+  warning: {
+    50: '#FFFAEA',
+    100: '#FFF6D3',
+    200: '#FFEDA7',
+    300: '#FFE37B',
+    400: '#FFDA4F',
+    500: '#FFD020',
+    600: '#CCA719',
+    700: '#997D13',
+    800: '#66540C',
+    900: '#332A06',
+  },
+  error: {
+    50: '#FEECEA',
+    100: '#FCD8D3',
+    200: '#F9B1A7',
+    300: '#F68A7B',
+    400: '#F3634F',
+    500: '#F03A24',
+    600: '#C12E1D',
+    700: '#912316',
+    800: '#60170E',
+    900: '#300C07',
+  },
+  neutral: {
+    50: '#F9FAFB',
+    100: '#F3F4F6',
+    200: '#E5E7EB',
+    300: '#D1D5DB',
+    400: '#9CA3AF',
+    500: '#6B7280',
+    600: '#4B5563',
+    700: '#374151',
+    800: '#1F2937',
+    900: '#111827',
+  },
+};
+
+// Define typography
+export const typography = {
+  headings: {
+    fontFamily: 'Poppins-Bold',
+    h1: 28,
+    h2: 24,
+    h3: 20,
+    h4: 18,
+    h5: 16,
+  },
+  body: {
+    fontFamily: 'Inter-Regular',
+    large: 18,
+    medium: 16,
+    small: 14,
+    caption: 12,
+  },
+};
+
+// Define spacing
+export const spacing = {
+  xs: 4,
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+  xxl: 48,
+  xxxl: 64,
+};
+
+// Define radius
+export const radius = {
+  sm: 4,
+  md: 8,
+  lg: 12,
+  xl: 16,
+  xxl: 24,
+  round: 9999,
+};
