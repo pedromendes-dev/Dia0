@@ -154,7 +154,7 @@ async def root():
     return {"message": "AutoCommerce API - Vehicle Marketplace"}
 
 # Vehicle Routes
-@api_router.post("/vehicles", response_model=Vehicle)
+@api_router.post("/vehicles", response_model=Vehicle, status_code=201)
 async def create_vehicle(vehicle: VehicleCreate):
     vehicle_dict = vehicle.dict()
     vehicle_obj = Vehicle(**vehicle_dict)
