@@ -246,7 +246,7 @@ async def delete_vehicle(vehicle_id: str):
     return {"message": "Vehicle deleted successfully"}
 
 # User Routes
-@api_router.post("/users", response_model=User)
+@api_router.post("/users", response_model=User, status_code=201)
 async def create_user(user: UserCreate):
     # Check if user already exists
     existing_user = await db.users.find_one({"email": user.email})
