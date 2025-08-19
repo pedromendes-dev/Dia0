@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
-import { Card } from "./components/ui/card";
-import { Button } from "./components/ui/button";
-import { Badge } from "./components/ui/badge";
-import { Input } from "./components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
-import { Separator } from "./components/ui/separator";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
-import { Search, Car, Heart, Phone, Mail, MapPin, Calendar, Gauge, Fuel, Settings, Filter, Star } from "lucide-react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
